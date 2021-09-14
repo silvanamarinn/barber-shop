@@ -1,0 +1,18 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: aquamarine;
+}
+
+.titulo {
+  font-size: 20px;
+  color: dimgray;
+}
+
+p {
+  border: 2x solid black;
+  padding: 1rem;
+  margin: 0.2rem;
+  background-color: chocolate;
+}
+
+/*# sourceMappingURL=style.css.map */
