@@ -1,0 +1,136 @@
+
+.hero {
+    
+    background-image: url("../img/post-image.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 100vh;
+
+    &__contenedor{
+        padding-top: 5em;
+    }
+
+   &__h1{
+    font-family:'Playfair Display', serif;
+    font-weight:900;
+    font-style: italic;
+    text-align:center;
+    color: #ffffff;
+    
+   
+   
+
+   }
+
+
+    
+  }
+
+  .navbar{
+    &__l{
+      @include robotolight;
+      margin:1em;
+      color:white;
+      font-size: 1.2em;
+      &-a{
+        color: $ruddy-pink;
+        margin:1em;
+        font-size: 1.2em;
+        @include robotolight;
+        
+      }
+   
+    }
+    &__logo{
+      width: 40%
+    }
+ 
+ 
+ 
+ 
+  }
+
+
+
+
+
+
+  .center{
+      
+    &__parraph{
+      @include parrafo;
+         
+    }
+
+    &__h5{
+      font-family:'Playfair Display', serif;
+      color: $nickel;
+
+    }
+  }
+  
+  .bottombutton{
+      
+    &__type{
+        border-radius: 5em;
+        background-color: $nickel;
+        color: #ffffff;
+        
+        
+    }
+  }
+
+
+
+ .navnumeros{
+   border-radius: 5em;
+ }
+
+ #navn{
+   border-start-start-radius: 2em;
+   border-bottom-left-radius:2em ;
+ }
+
+#navn2{
+  border-end-end-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+.naomi{
+  
+  &__h1{
+    font-family:'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+
+  }
+
+  &__h2{
+    @include robotolight;
+    color: #ECBCBA;
+  }
+
+  &__p{
+  @include parrafo;
+  }
+
+  &__img{
+    border-radius: 8em;
+
+
+  }
+
+
+}
+.paginas_numeros{
+  &__n{
+    color: $raisin-black;
+  
+  &-a{
+    background-color: $nickel;
+  }
+  }
+  }
+    
