@@ -11190,6 +11190,10 @@ textarea.form-control-lg {
   text-align: center;
   color: #ffffff;
 }
+.hero__logo {
+  font-size: 6em;
+  padding-top: 2em;
+}
 
 .navbar__l {
   font-family: "Roboto", sans-serif;
